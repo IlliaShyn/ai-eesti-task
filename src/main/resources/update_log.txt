@@ -1,0 +1,3 @@
+Updated 'Makromajanduslik taust' from src/main/resources/teadmistebaas_majandus_2025.docx
+Updated 'Eesti kinnisvaraturg' from src/main/resources/teadmistebaas_Üldülevaated_Eesti_Tln_Harjumaa_2025.docx
+Updated 'Õismäe linnaosa korteriturg' from src/main/resources/teadmistebaas_õismäe_2025.docx

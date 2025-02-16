@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.FileChooser?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.aieesti.MainController">
+
+    <Label text="Upload Appraisal File"/>
+    <Button text="Select File" onAction="#handleFileSelection"/>
+    <Label fx:id="fileLabel" text="No file selected"/>
+
+    <Button text="Update File" onAction="#processFile"/>
+    <Label fx:id="statusLabel" text="Status: Waiting"/>
+</VBox>
