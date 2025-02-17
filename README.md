@@ -22,6 +22,9 @@ mvn javafx:run -f pom.xml
 ```
 /src/main/java/org/aieesti/
     ├── AppraisalProcessor.java  # Main processing logic
+    ├── JavaFXText.java          # GUI setup
+    ├── MainApp.java             # GUI launch
+    ├── MainController.java      # File choosing and update connected to GUI elements
 /src/main/resources/
     ├── teadmistebaas_õismäe_2025.docx  # Example knowledge base files
     ├── teadmistebaas_kristiine_2025.docx
